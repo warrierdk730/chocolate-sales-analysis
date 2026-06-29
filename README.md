@@ -13,7 +13,8 @@
 
 ## 📊 Live Dashboard
 
-👉 **[Open the Streamlit Dashboard](https://your-streamlit-link-here)** *(deploy to Streamlit Cloud and update this link)*
+👉 **[Open the Streamlit Dashboard](https://warrierdk730-chocolate-sales.streamlit.app)**
+
 
 ---
 
