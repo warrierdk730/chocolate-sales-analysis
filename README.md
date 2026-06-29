@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?logo=pandas&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4c72b0)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-3F4F75?logo=plotly&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
@@ -14,7 +15,6 @@
 ## 📊 Live Dashboard
 
 👉 **[Open the Streamlit Dashboard](https://chocolate-sales-analysis-iftzpszxg4a7n7wmnr2exx.streamlit.app/)**
-
 
 ---
 
@@ -55,6 +55,20 @@
 
 ---
 
+## 🖥️ Dashboard Pages
+
+| Page | What it shows |
+|------|--------------|
+| **Overview** | Monthly revenue trend, country distribution, top products & salespeople |
+| **Products** | Revenue ranking, profitability per box, product × country heatmap |
+| **Salespeople** | Strategy quadrant map, efficiency ranking, individual drilldown |
+| **Geography** | Country revenue breakdown, market share, product preference by country |
+| **Trends** | YoY comparison, seasonal patterns, quarterly breakdown, rolling average |
+
+> All pages respond to sidebar filters — Year, Country, Product, Salesperson
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -62,17 +76,8 @@ chocolate-sales-analysis/
 │
 ├── Chocolate_Sales.csv              # Raw dataset
 ├── Chocolate_Sales_Analysis.ipynb   # Full analysis notebook (9 sections)
-├── app.py                           # Streamlit dashboard
+├── app.py                           # Streamlit interactive dashboard
 ├── requirements.txt                 # Python dependencies
-│
-├── charts/                          # Auto-generated chart PNGs
-│   ├── 01_eda_distributions.png
-│   ├── 02_salesperson_revenue.png
-│   ├── 03_product_analysis.png
-│   ├── 04_geographic_analysis.png
-│   ├── 05_salesperson_strategy.png
-│   └── 06_yoy_trends.png
-│
 └── README.md
 ```
 
@@ -101,14 +106,15 @@ chocolate-sales-analysis/
 | **Python 3.10+** | Core language |
 | **Pandas** | Data loading, cleaning, groupby analysis |
 | **NumPy** | Numerical operations |
-| **Matplotlib** | Base chart rendering |
-| **Seaborn** | Statistical visualizations |
-| **Streamlit** | Interactive dashboard |
+| **Matplotlib** | Base chart rendering (notebook) |
+| **Seaborn** | Statistical visualizations (notebook) |
+| **Plotly** | Interactive charts (dashboard) |
+| **Streamlit** | Interactive dashboard deployment |
 | **Jupyter Notebook** | Analysis environment |
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run Locally
 
 ### 1. Clone the repository
 ```bash
@@ -133,19 +139,6 @@ streamlit run app.py
 
 ---
 
-## 📦 Requirements
-
-```
-pandas>=2.0
-numpy>=1.24
-matplotlib>=3.7
-seaborn>=0.12
-streamlit>=1.30
-plotly>=5.18
-```
-
----
-
 ## 💡 Skills Demonstrated
 
 - ✅ Real-world **data cleaning** (currency strings, date parsing, type coercion)
@@ -154,7 +147,8 @@ plotly>=5.18
 - ✅ **Segmentation analysis** — salesperson strategy quadrant mapping
 - ✅ **Time-series analysis** — YoY growth, seasonal patterns, quarterly trends
 - ✅ **Data storytelling** — markdown insights after every visualization
-- ✅ **Interactive dashboard** deployment with Streamlit
+- ✅ **Interactive dashboard** deployment with Streamlit + Plotly
+- ✅ **Cloud deployment** — live app hosted on Streamlit Community Cloud
 
 ---
 
@@ -162,14 +156,14 @@ plotly>=5.18
 
 **Dileep Kumar Warrier**
 - 📧 warrierdk.1985@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile)
+- 💼 [LinkedIn](https://linkedin.com/in/your-linkedin-profile)
 - 🐙 [GitHub](https://github.com/warrierdk730)
 
 ---
 
 ## 📄 Dataset Source
 
-[Chocolate Sales Dataset — Kaggle](https://www.kaggle.com/)  
+[Chocolate Sales Dataset — Kaggle](https://www.kaggle.com/)
 *Data covers January 2022 to August 2024. 2024 figures represent a partial year (Jan–Aug only).*
 
 ---
