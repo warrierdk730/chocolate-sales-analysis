@@ -13,7 +13,7 @@
 
 ## 📊 Live Dashboard
 
-👉 **[Open the Streamlit Dashboard](https://warrierdk730-chocolate-sales.streamlit.app)**
+👉 **[Open the Streamlit Dashboard](https://chocolate-sales-analysis-iftzpszxg4a7n7wmnr2exx.streamlit.app/)**
 
 
 ---
