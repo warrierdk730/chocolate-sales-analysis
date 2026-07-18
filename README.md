@@ -170,11 +170,6 @@ streamlit run app.py
 
 *⭐ If you found this analysis useful, please star the repository!*
 
-# GitHub README Section
-
-Paste this into your `chocolate-sales` repo's README, below the existing notebook/EDA section.
-
----
 
 ## 📊 Power BI Dashboard
 
