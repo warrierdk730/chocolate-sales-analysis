@@ -181,14 +181,14 @@ An interactive 2-page Power BI dashboard built on top of the cleaned sales data,
 - Revenue by Country (bar chart)
 - Slicers: Year, Product, Country
 
-![Dashboard Overview](assets/dashboard_overview.png)
+![Dashboard Overview](asset/dashboard_overview.png)
 
 **Page 2 — Product & Sales Performance**
 - Revenue by Product (bar chart)
 - Boxes Shipped by Product (treemap)
 - Sales Person leaderboard with Total Revenue, Total Orders, and Avg Order Value, with data-bar formatting
 
-![Product & Sales Performance](assets/dashboard_product_sales.png)
+![Product & Sales Performance](asset/dashboard_product_sales.png)
 
 **Built with:**
 - Power Query for data cleaning (currency parsing, date locale fixes, text trimming)
