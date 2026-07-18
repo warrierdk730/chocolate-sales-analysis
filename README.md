@@ -169,3 +169,62 @@ streamlit run app.py
 ---
 
 *⭐ If you found this analysis useful, please star the repository!*
+
+# GitHub README Section
+
+Paste this into your `chocolate-sales` repo's README, below the existing notebook/EDA section.
+
+---
+
+## 📊 Power BI Dashboard
+
+An interactive 2-page Power BI dashboard built on top of the cleaned sales data, covering revenue trends, geographic performance, and sales team leaderboards.
+
+**Page 1 — Overview**
+- KPI cards: Total Revenue, Total Boxes Shipped, Total Orders, YoY Growth %
+- Revenue trend line (Jan 2022 – Aug 2024, month-over-month)
+- Revenue by Country (bar chart)
+- Slicers: Year, Product, Country
+
+![Dashboard Overview](assets/dashboard_overview.png)
+
+**Page 2 — Product & Sales Performance**
+- Revenue by Product (bar chart)
+- Boxes Shipped by Product (treemap)
+- Sales Person leaderboard with Total Revenue, Total Orders, and Avg Order Value, with data-bar formatting
+
+![Product & Sales Performance](assets/dashboard_product_sales.png)
+
+**Built with:**
+- Power Query for data cleaning (currency parsing, date locale fixes, text trimming)
+- A dedicated Date dimension table with DAX time-intelligence measures (YoY growth using `SAMEPERIODLASTYEAR`)
+- Custom DAX measures: Total Revenue, Avg Revenue per Box, Avg Order Value, YoY Growth %
+- Interactive page navigation via button actions
+
+> Note: Dashboard built and run locally in Power BI Desktop. Screenshots above reflect the live report.
+
+---
+
+# LinkedIn Post
+
+📊 New project: Chocolate Sales Dashboard (Power BI)
+
+I rebuilt a Kaggle chocolate sales dataset into a full 2-page interactive Power BI dashboard as part of my Data Analyst portfolio.
+
+What it covers:
+🍫 Revenue trends across 3 years (2022-2024), broken down by month
+🌍 Country-level performance across 6 markets
+🏆 A sales team leaderboard ranked by revenue, orders, and average order value
+📦 Product-level breakdown of revenue and boxes shipped
+
+A few things I focused on:
+- Cleaning currency and locale-sensitive date fields in Power Query
+- Building a proper Date dimension table for accurate time-intelligence (YoY growth %)
+- Interactive page navigation and slicers for a real "app-like" feel, not just static charts
+
+This was my first end-to-end Power BI build, from raw CSV to a polished, navigable dashboard. Screenshots and full write-up on GitHub.
+
+🔗 [link to your GitHub repo]
+
+#PowerBI #DataAnalytics #DataVisualization
+
