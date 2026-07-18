@@ -219,7 +219,7 @@ A few things I focused on:
 
 This was my first end-to-end Power BI build, from raw CSV to a polished, navigable dashboard. Screenshots and full write-up on GitHub.
 
-🔗 [link to your GitHub repo]
+🔗 [[link to your GitHub repo](https://github.com/warrierdk730/chocolate-sales-analysis.git)]
 
 #PowerBI #DataAnalytics #DataVisualization
 
