@@ -200,26 +200,3 @@ An interactive 2-page Power BI dashboard built on top of the cleaned sales data,
 
 ---
 
-# LinkedIn Post
-
-📊 New project: Chocolate Sales Dashboard (Power BI)
-
-I rebuilt a Kaggle chocolate sales dataset into a full 2-page interactive Power BI dashboard as part of my Data Analyst portfolio.
-
-What it covers:
-🍫 Revenue trends across 3 years (2022-2024), broken down by month
-🌍 Country-level performance across 6 markets
-🏆 A sales team leaderboard ranked by revenue, orders, and average order value
-📦 Product-level breakdown of revenue and boxes shipped
-
-A few things I focused on:
-- Cleaning currency and locale-sensitive date fields in Power Query
-- Building a proper Date dimension table for accurate time-intelligence (YoY growth %)
-- Interactive page navigation and slicers for a real "app-like" feel, not just static charts
-
-This was my first end-to-end Power BI build, from raw CSV to a polished, navigable dashboard. Screenshots and full write-up on GitHub.
-
-🔗 [[link to your GitHub repo](https://github.com/warrierdk730/chocolate-sales-analysis.git)]
-
-#PowerBI #DataAnalytics #DataVisualization
-
